@@ -18,6 +18,16 @@
     <connection>scm:git:git@github.com:airbrake/airbrake-java.git</connection>
     <developerConnection>scm:git:git@github.com:airbrake/airbrake-java.git</developerConnection>
   </scm>
+  <distributionManagement>
+      <repository>
+          <id>awv-releases</id>
+          <url>https://collab.mow.vlaanderen.be/artifacts/repository/maven-releases</url>
+      </repository>
+      <snapshotRepository>
+          <id>awv-snapshots</id>
+          <url>https://collab.mow.vlaanderen.be/artifacts/repository/maven-snapshots</url>
+      </snapshotRepository>
+  </distributionManagement>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
